@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="MIT"
+
+[[mods]]
+modId="flintaxedt"
+version="1.0.0"
+displayName="Flint as Axe"
+description='''Use flint as a one-time axe
+For use with Dynamic Trees'''
+
+[[dependencies.flintaxedt]]
+modId="forge"
+mandatory=true
+versionRange="[43,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.flintaxedt]]
+modId="dynamictrees"
+mandatory=true
+versionRange="[1.19.2,)"
+ordering="NONE"
+side="BOTH"
